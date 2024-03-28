@@ -123,7 +123,7 @@ public class BookController extends HttpServlet {
 		 * Book newBook = new Book(title, author, price);
 		 */
 		
-		//-------
+		//------------
 		bookService.insertBook(book);
 		//bookDAO.insertBook(newBook);
 		response.sendRedirect("list");
