@@ -5,7 +5,8 @@ import java.util.List;
 
 import com.bookstore.model.Book;
 
-public interface BookService {               //  github changes          testing ---------------------------------
+
+public interface BookService {               //  github changes          testing --------------------------------
 	
 	public void insertBook(Book book) throws SQLException;
 	
