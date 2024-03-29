@@ -5,7 +5,7 @@ import java.util.List;
 
 import com.bookstore.model.Book;
 
-public interface BookService {
+public interface BookService {      //eclipse  ==================
 	
 	public void insertBook(Book book) throws SQLException;
 	

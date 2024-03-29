@@ -23,9 +23,10 @@ public class BookServiceImpl  implements BookService{
 		this.jdbcUsername = jdbcUsername;
 		this.jdbcPassword = jdbcPassword;
 	}
- //------ato
 	private BookDao  bookDao = new BookDAOImpl();
 
+	//------ato
+	
 	@Override
 	public void insertBook(Book book) throws SQLException {
 		

@@ -23,7 +23,7 @@ import com.bookstore.service.BookServiceImpl;
  */
 public class BookController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	private BookDAOImpl bookDAO;
+	 private BookDAOImpl bookDAO;
 	//
 	private BookService bookService; 
 
